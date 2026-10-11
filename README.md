@@ -11,7 +11,7 @@ A REST API for tracking employee attendance (punch-in / punch-out, corrections w
 - `/admin/explain/{endpoint}` shows the MongoDB query plan behind each read endpoint.
 
 ## Requirements
-- Python 3.10+
+- Python 3.11+
 - MongoDB 6.0+ (5.0 is the minimum: the analytics use `$setWindowFields`)
 
 ## Setup
